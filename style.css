@@ -257,18 +257,6 @@ html, body{
     background: url('img/waves/wave-paint.png') 0 0 / auto 101% repeat-x;
 }
 
-.paralax_lightHouse{
-  
-    background: url('./img/lighthouse.png') 0 0 no-repeat;
-    width: 320px;
-    height: 560px;
-    position: absolute;
-    right: 12%;
-    bottom: 50px;
-    animation: lighthouse 4s 0 1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-
 
 @keyframes swing{
     0%{
@@ -291,15 +279,6 @@ html, body{
 }
 
 
-
-@keyframes lighthouse{
-    0%{
-        transform: translate3d(15%, 0, 0) rotateZ(10deg);
-    }
-    100%{
-        transform: translate3d(-15%, 0, 0) rotateZ(-10deg);
-    }
-}
 
 @-webkit-keyframes lighthouse{
     0%{
